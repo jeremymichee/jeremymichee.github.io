@@ -17,7 +17,7 @@
     <nav id="navbar">
       <ul class="topnav">
         <li><a class="active" href="#welcome-section">Home</a></li>
-        <li><a href="#projects">Web Development projects</a></li>
+        <li><a href="#projects">Development projects</a></li>
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#contact">Contact</a></li>
         <li class="right"><a href="#about">About</a></li>
@@ -48,7 +48,11 @@
 
     <!--START PROJECTS SECTION -->
     <section id="projects" class="section-block">
-      <h2 class="section-title">Web Dev Projects</h2>
+      <h2 class="section-title">Dev Projects</h2>
+      <h3>|HTML|CSS|JavaScript|Java|</h3>
+      <br>
+      <p>Click to see my work</p>
+      <br>
 
       <div class="projects-grid">
         <div class="web-dev-projects">
@@ -58,7 +62,7 @@
               src="https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1656677700109-I4FAA71QIULB83VU8YA3/Art_of_1+%282%29.jpg"
               alt="Tribute Page preview"
             />
-            <p>Tribute Page [Practicing]</p>
+            <p>Tribute Page [Practicing|HTML/CSS]</p>
           </a>
         </div>
 
@@ -69,7 +73,7 @@
               src="assets/images/Survey.jpg"
               alt="Survey Page preview"
             />
-            <p>Survey page [Practicing]</p>
+            <p>Survey page [Practicing|HTML/CSS]</p>
           </a>
         </div>
 
@@ -80,7 +84,7 @@
               src="assets/images/Palindrome.jpg"
               alt="Project placeholder"
             />
-            <p>palindromeChecker [Practicing]</p>
+            <p>palindromeChecker [Practicing|HTML/CSS/Javascript]</p>
           </a>
         </div>
 
@@ -91,7 +95,47 @@
               src="assets/images/WSC.jpg"
               alt="Project placeholder"
             />
-            <p>Wissous Salsa Club [School Homework]</p>
+            <p>Wissous Salsa Club [School Homework|HTML/CSS]</p>
+          </a>
+        </div>
+         <div class="web-dev-projects">
+          <a href="https://codepen.io/Jeremazzing/pen/emJrjRy" class="project project-tile" target="_blank">
+            <img
+              class="project-image"
+              src="assets/images/DrawApp.jpg"
+              alt="Project placeholder"
+            />
+            <p>DrawingApp [Personnal Project|JavaScript/P5*]</p>
+          </a>
+        </div>
+        <div class="web-dev-projects">
+          <a href="https://codepen.io/Jeremazzing/pen/xbZjeQw" class="project project-tile" target="_blank">
+            <img
+              class="project-image"
+              src="assets/images/sullyvaricelle.jpg"
+              alt="Project placeholder"
+            />
+            <p>Sully From MonsterInc "Varicelle" <br> [Exercice|JavaScript/P5*]</p>
+          </a>
+        </div>
+        <div class="web-dev-projects">
+          <a href="https://codepen.io/Jeremazzing/pen/EaPLJrj" class="project project-tile" target="_blank">
+            <img
+              class="project-image"
+              src="assets/images/crazy-square.jpg"
+              alt="Project placeholder"
+            />
+            <p>CrazySquare <br> [Exercice|JavaScript/P5*]</p>
+          </a>
+        </div>
+        <div class="web-dev-projects">
+          <a href="https://github.com/jeremymichee?tab=overview&from=2022-12-01&to=2022-12-31" class="project project-tile" target="_blank">
+            <img
+              class="project-image"
+              src="assets/images/androidopenclassrooms.jpg"
+              alt="Project placeholder"
+            />
+            <p>I worked on several mobile projects during my training at <strong>OpenClassrooms</strong>. <br> [Openclassrooms|Java/AndroidStudio]</p>
           </a>
         </div>
       </div>
@@ -169,6 +213,28 @@
       </div>
     </section>
     <!--END GALLERY SECTION-->
+
+    <!--CERTIFICATIONS-->
+     <section id="gallery" class="section-block">
+      <h2 class="section-title">Certifications</h2>
+      <p>Responsive Design|<a href="https://www.freecodecamp.org/certification/jeremy_michee/responsive-web-design">FreeCodeCamp</a></p>
+
+      <div class="row">
+        <div class="column">
+          <img
+            src="assets/images/Certification-Responsive Design-Jérémy_Michee-FreeCodeCamp-Juin 2025.png"
+            alt="Responsive Design"
+            onclick="myFunction(this);"
+          />
+        </div>
+      </div>
+
+      <div class="lightbox" id="lightbox">
+        <span class="closebtn" onclick="document.getElementById('lightbox').style.display='none'">&times;</span>
+        <img id="expandedImg" />
+        <div id="imgtext"></div>
+      </div>
+    </section>
 
     <!--START CONTACT SECTION-->
     <section id="contact" class="contact-section">
